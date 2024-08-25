@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mcq-generator"
+version = "0.1.0"
+description = ""
+authors = ["Aleksey Eliseev <alekseyeliseev@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.37.1"
+pdfminer-six = "^20240706"
+langchain = "^0.2.14"
+langchain-community = "^0.2.12"
+openai = "^1.42.0"
+langchain-openai = "^0.1.22"
+
+
+[tool.poetry.group.dev.dependencies]
+watchdog = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
